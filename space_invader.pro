@@ -10,10 +10,14 @@ SOURCES += \
     entity.cpp \
     fpslimiter.cpp \
     game.cpp \
-    main.cpp
+    invader.cpp \
+    main.cpp \
+    party.cpp
 
 HEADERS += \
     button.h \
     entity.h \
     fpslimiter.h \
-    game.h
+    game.h \
+    invader.h \
+    party.h
