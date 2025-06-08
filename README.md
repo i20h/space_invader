@@ -10,7 +10,7 @@ Ce projet utilise la bibliothèque [MinGL2](https://github.com/cmdetu/MinGL2_IUT
 
 1. Clonez ce dépôt :
   ```bash
-  git clone <url-du-repo>
+  git clone https://github.com/i20h/space_invader.git
   cd space_invader
   ```
 
