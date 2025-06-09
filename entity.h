@@ -6,7 +6,6 @@
 class entity
 {
 protected:
-    nsGraphics::Vec2D coords;
     nsGui::Sprite sprite;
 
 public:
