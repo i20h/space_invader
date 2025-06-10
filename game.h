@@ -38,7 +38,6 @@ private:
 
     void (game::*stateFunctions[static_cast<int>(GameState::Count)])();
     void windowClear();
-    void finishFrame();
     nsGraphics::Vec2D lastMousePosition = nsGraphics::Vec2D(0, 0);
 
     void initFunction();
