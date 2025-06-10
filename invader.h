@@ -10,6 +10,7 @@ private:
 
 public:
     invader(const nsGraphics::Vec2D& pos, const nsGui::Sprite& sprite);
+    virtual ~invader() = default;
     nsGraphics::Vec2D getPosition() const;
     nsGraphics::Vec2D getPosition(int direction) const;
     bool isColliding(nsGraphics::Vec2D firstCorner, nsGraphics::Vec2D secondCorner);
