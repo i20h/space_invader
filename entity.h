@@ -10,10 +10,12 @@ protected:
 
 public:
     entity(nsGraphics::Vec2D coords, nsGui::Sprite sprite);
-    void draw(MinGL& window);
-    nsGraphics::Vec2D getPosition();
+    virtual void draw(MinGL& window);
+    nsGraphics::Vec2D getPosition() const;
     void setPosition(nsGraphics::Vec2D position);
     nsGraphics::Vec2D computeSize();
+    bool isColliding(const nsGui::Sprite& other) const;
+    nsGui::Sprite& getSprite();
 };
 
 #endif // ENTITY_H
