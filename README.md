@@ -30,6 +30,10 @@ Lancez l'exécutable généré dans le dossier `build` ou équivalent.
 **Le fichier `sprite` doit être placé dans le même dossier que l'exécutable (par exemple dans `build/`).**  
 Sinon, le jeu ne pourra pas charger les sprites et des erreurs apparaîtront.
 
+## Documentation
+
+Les commentaires sur les fonctions ont été générés à l'aide de GitHub Copilot.
+
 ## Auteurs
 
 - Tibo
